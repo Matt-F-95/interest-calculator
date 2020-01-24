@@ -1,0 +1,68 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Bowlby One SC', cursive; */
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 10px 10px 10px black;
+    letter-spacing: 4px;
+}
+
+body {
+    background-image: url(../img/black-linen-2.png);
+    background-color: black;
+    background-position: center;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+input,
+label,
+button,
+p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-weight: 900;
+    line-height: 3em;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 1.15em;
+    margin: 2em;
+    color: whitesmoke;
+    text-shadow: 10px 10px 10px black;
+}
+
+input {
+    border-color: rgb(85, 15, 39);
+    color: black;
+
+}
+
+input:hover {
+    border-bottom-color: rgb(252, 0, 0);
+    transition: .5s;
+    border-width: 3px;
+    color: black;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    text-transform: uppercase;
+    background-color: gray;
+}
+
+button:hover {
+    background: black;
+    transition: .5s;
+}
